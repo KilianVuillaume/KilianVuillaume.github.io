@@ -1,0 +1,9 @@
+
+
+/*general colors*/
+.plt-text-color {color: var(--text-color) !important;}
+.plt-dark-color {color: var(--dark-color) !important;}
+
+/*BG COLORS*/
+.bg-plt-dark-color {background-color: var(--dark-color);}
+.bg-plt-main-color-2 {background-color: var(--main-color2);}
