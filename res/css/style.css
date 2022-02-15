@@ -7,3 +7,25 @@
 /*BG COLORS*/
 .bg-plt-dark-color {background-color: var(--dark-color);}
 .bg-plt-main-color-2 {background-color: var(--main-color2);}
+.bg-plt-main-color {background-color: var(--main-color);}
+
+
+
+.navbar-button
+{
+    cursor: pointer;
+}
+
+.navbar-bar
+{
+    margin: 0;
+    height: 2px;
+    background-color: var(--text-color);
+    clip-path: inset(0% 50% 0% 50%);
+    transition: clip-path 1s;
+}
+
+.navbar-button:hover > .navbar-bar
+{
+    clip-path: inset(0% 30% 0% 30%);
+}
