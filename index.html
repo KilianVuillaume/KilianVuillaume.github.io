@@ -13,7 +13,7 @@
 
 
 
-    <body class="bg-plt-main-color">
+    <body class="bg-plt-main-color" onload="loadExternalContent();">
 
     <header class="bg-plt-main-color-2 pt-3 row">
         <div class=" container row d-flex">
@@ -22,7 +22,7 @@
                 <img id="flagLangue" src="./res/images/frenchFlag.png" class="ms-2 mb-2" alt="">
             </div>
 
-                <div class="row col-md-11 d-flex justify-content-between">
+                <div class="row col-md-11 container">
                     <div class="navbar-button pb-2" style="width: calc(100%/3);">
                         <h3 class="text-center plt-text-color">CV</h3>
                         <div class="navbar-bar"></div>
@@ -40,7 +40,9 @@
         </div>
     </header>
 
-    <img id="maphoto" src="./res/images/kilian2.jpg" alt="">
+    <div id="content" class="container">
+
+    </div>
         
     </body>
 

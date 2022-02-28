@@ -1,15 +1,16 @@
 
 
-function loadExternalContent(){
+
+function loadExternalContent(url){
     let xhttp = new XMLHttpRequest();
 
     xhttp.onreadystatechange = function (){
         if(this.readyState === 4 && this.status === 200){
-            document.getElementById("body").innerHTML = this.responseText;
+            document.getElementById("content").innerHTML = this.responseText;
         }
     }
 
-    xhttp.open("GET","../test.html",true);
+    xhttp.open("GET",'../content/mainPage.html',true);
 
     xhttp.send();
 }
