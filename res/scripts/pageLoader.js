@@ -10,7 +10,7 @@ function loadExternalContent(url){
         }
     }
 
-    xhttp.open("GET",'../content/mainPage.html',true);
+    xhttp.open("GET",'res/content/mainPage.html',true);
 
     xhttp.send();
 }
